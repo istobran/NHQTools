@@ -1,37 +1,57 @@
-# Visual Studio
-*.suo
-*.user
-*.sln.docstates
+# Dev
 [Bb]in/
 [Oo]bj/
-.vs/
-.github/
-Benchmark/*
+*.sln.docstates
+*.suo
+*.user*
+.*/
+packages/
+node_modules/
+vendor/
 
-# Custom
-_*/
-Packages/
-Pack.exe/
-/vendor/
-/node_modules/
-*.html
-TODO.txt
-Notes.txt
-*.userprefs
-*.7z
-*.zip
-*.rar
-*.exe
-*.ini
-*.c
-*- Copy.*
-.env
+# Specific
 .gitnotes
-*.log
 .DS_Store
-Thumbs.db
+[Aa]rchive.bat
+[Bb]ackup.bat
 desktop.ini
-Archive.bat
-PFF File Format.txt
+[Nn]otes.txt
+[Tt]humbs.db
+todo.txt
+web.config
 
-*.html
+# Wildcards
+_*/
+*- [Cc]opy*
+*.7z
+*.asc
+*.auth*
+*.bak*
+*.cfg
+*.conf*
+*.cred*
+*.crt
+*.db
+*.dev*
+*.env*
+*.exe
+*.gpg
+*.htm*
+*.ini
+*.kdb*
+*.key
+*.log
+*.msi
+*.note
+*.notes
+*.pass*
+*.pem
+*.pfx
+*.rar
+*.secret
+*.sqlite*
+*.token
+*.todo
+*.url
+*.zip
+
