@@ -8,6 +8,7 @@
 packages/
 node_modules/
 vendor/
+tests/
 
 # Specific
 .gitnotes
@@ -19,6 +20,7 @@ desktop.ini
 [Tt]humbs.db
 todo.txt
 web.config
+/*Test.php
 
 # Wildcards
 _*/
