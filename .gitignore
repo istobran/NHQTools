@@ -9,18 +9,19 @@ packages/
 node_modules/
 vendor/
 tests/
+logs/
+Research/
 
 # Specific
 .gitnotes
 .DS_Store
-[Aa]rchive.bat
-[Bb]ackup.bat
 desktop.ini
 [Nn]otes.txt
 [Tt]humbs.db
 todo.txt
 web.config
 /*Test.php
+*secrets.h
 
 # Wildcards
 _*/
@@ -29,6 +30,7 @@ _*/
 *.asc
 *.auth*
 *.bak*
+*.bat*
 *.cfg
 *.conf*
 *.copilot*
@@ -40,14 +42,18 @@ _*/
 *.exe
 *.gpg
 *.htm*
+*.ilk
 *.ini
 *.kdb*
 *.key
+*.lock
 *.log
 *.msi
 *.note
 *.notes
+*.obj
 *.pass*
+*.pdb
 *.pem
 *.pfx
 *.rar
@@ -60,3 +66,4 @@ _*/
 
 #include
 !app.config
+!Research/
